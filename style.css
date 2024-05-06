@@ -1,0 +1,144 @@
+.card{
+    height: 480px;
+}
+.card img{
+    height: 240px;
+}
+.nav a{
+    color: black;
+    font-size: 25px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.nav a:hover{
+    font-size: 30px;
+    color: grey;
+}
+.navbar{
+    margin-left: -12px;
+}
+.btn:hover{
+    background-color: black;
+}
+footer{
+    background-color: black;
+    margin-top: 10vh;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display:flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+
+
+.titulo{
+    text-align: center;
+    margin-top: 3vh;
+}
+.texto{
+    margin-left: 17vw;
+    margin-right: 16vw;
+    margin-top: 3vh;
+    font-size: 1.1vw;
+}
+.subtitulo{
+    margin-left: 17vw;
+    margin-right: 16vw;
+    margin-top: 3vh;
+}
+.conteudo-img{
+    margin-left: 17vw;
+    margin-top: 1.5vh;
+}
+.comentarios{
+    margin-top: 4vh;
+    margin-left: 17vw;
+    margin-right: 16vw;
+}
+.informacoes{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 32.9vw;
+    height: 5vh;
+}
+.comentarios p{
+    font-size: 1.1vw;
+}
+.comentario{
+    margin-top: 2vh;
+    width: 65.8vw;
+    height: 30vh;
+    margin-bottom: 2vh;
+}
+.comentarios button{
+    margin-bottom: 5vh;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .texto{
+        font-size: 4vw;
+    }
+    .comentarios p{
+        font-size: 4vw;
+    }
+    .conteudo-img{
+        width: 70%;
+    }
+}
